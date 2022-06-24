@@ -3375,12 +3375,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		/*padding: 10em 0 4.75em 0 ;*/
 	}
 
 		#banner .inner {
-			margin: 0 auto;
-			width: 55em;
+			/*margin: 0 auto;
+			width: 55em;*/
 		}
 
 		#banner .logo {
@@ -3810,7 +3810,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
