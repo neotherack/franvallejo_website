@@ -1,6 +1,7 @@
 .banner {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-top:10rem;
@@ -16,7 +17,7 @@
 
 .portrait img{
   border-radius:30%;
-  width: 30rem;
+  width: 100%;
 }
 
 ul.lang li {
