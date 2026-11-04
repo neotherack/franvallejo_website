@@ -23,8 +23,10 @@ Personal and professional site of Francisco Vallejo Luna, served by Apache from
 - Updated experience to 20 years and current role at OpenText.
 - Certifications refreshed from the public Credly profile
   (`https://www.credly.com/users/francisco-vallejo/badges`), including the 2024–2026
-  badges that were missing. CKAD is listed under earlier credentials because the badge
-  expired in 2022.
+  badges that were missing. CKAD is listed under `Languages & other credentials`
+  because the badge expired in 2022.
+- Languages and other credentials: HSK-3 (June 2026), HSK-2 (2023), CKAD (2019–2022),
+  RHCSA (2018), HP ASE (2013) and ITIL v3 (2010).
 - Fixed old errors: `mailto:neotherack@gmail`, `Lón` -> `León`, `KCAD` -> `CKAD`,
   `+15 years` -> 20 years, mixed `http` links.
 - `moba.py`, `ace.apk`, `HSK3.pdf`, `video/`, `lucky_video/`, `charts/`, `mcp_exam/` and
