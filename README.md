@@ -36,7 +36,8 @@ Hardening lives in `/etc/apache2/sites-available/001-franvallejo.es-le-ssl.conf`
 
 - `Options -Indexes` and no `.htaccess` overrides.
 - Hidden files blocked, except ACME files under `.well-known/acme-challenge`.
-- `venv.tar.gz` blocked from public download. `moba.py` is explicitly not touched.
+- `venv.tar.gz` and this `README.md` blocked from public download. `moba.py` is
+  explicitly not touched.
 - HSTS, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` and
   `Permissions-Policy` on the whole vhost.
 - A strict CSP is applied only to the homepage (`/` and `/index.html`) so that the
