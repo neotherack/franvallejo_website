@@ -13,6 +13,15 @@ Personal and professional site of Francisco Vallejo Luna, served by Apache from
 - Legacy HTML5UP assets (`assets/css/main.css`, `assets/sass`, `assets/js/jquery*`) are
   kept for history but are no longer referenced by the site.
 
+## Hosting
+
+- Served by Apache on `sigmadraconis` (192.168.1.4) since the F4+F6 migration on
+  2026-11-10. The vhost path is unchanged:
+  `/etc/apache2/sites-available/001-franvallejo.es-le-ssl.conf`.
+- Previous host was `arrakis`; Apache is masked there. This opencode session was archived
+  on arrakis and resumed on sigmadraconis with the same session id.
+- Migration detail: `/opt/servicios_locales/MIGRACION_SIGMA.md` section 21.
+
 ## Decisions (2026-11-04 redesign)
 
 - Full rewrite of `index.html`: semantic, responsive (mobile/tablet), accessible,
@@ -49,7 +58,7 @@ Hardening lives in `/etc/apache2/sites-available/001-franvallejo.es-le-ssl.conf`
 ## Backup
 
 Before the redesign, a full backup (site without `.git` plus both vhost files) was
-written to:
+written to `/mnt/backup-nas` (mounted on sigmadraconis):
 
 ```
 /mnt/backup-nas/franvallejo/franvallejo_web_2026-11-04_pre-redesign.tar.gz
